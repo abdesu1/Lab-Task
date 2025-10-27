@@ -1,0 +1,55 @@
+<head>
+    <style>
+        body{
+            margin: 10px;
+            padding: 10px;
+        }
+        h1{
+            background-color: blue;
+        }
+        .a{
+            
+            margin-right: 80%;
+            background-color: gray;
+            text-align: left;
+            display: relative;
+            left: 30%;
+        } 
+        .b{
+          background-color: yellow;
+          left: 30%;
+          top: 7%;
+          position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> My Site</h1>
+    <div>
+        <div class=a>
+            <h2>Friends</h2>
+            <ul>
+                <li>
+                    Ali
+                </li>
+                <li>
+                    Ahmad
+                </li>
+                <li>
+                    Abdullah
+                </li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+        <div class=b>
+          <h2><span style="text-decoration: underline;">0/4/09</span>: Spatulas</h2>
+          <img src="img1.jpg">
+          <p>YesterdayI bought a spatula</p>
+        </div>
+    </div>
+
+
+</body>
